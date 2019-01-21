@@ -38,7 +38,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/HashEntry.o \
 	${OBJECTDIR}/HashMap.o \
 	${OBJECTDIR}/Heap.o \
-	${OBJECTDIR}/LinkedList.o \
+	${OBJECTDIR}/Stack.o \
 	${OBJECTDIR}/main.o
 
 
@@ -81,10 +81,10 @@ ${OBJECTDIR}/Heap.o: Heap.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Heap.o Heap.cpp
 
-${OBJECTDIR}/LinkedList.o: LinkedList.cpp
+${OBJECTDIR}/Stack.o: Stack.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/LinkedList.o LinkedList.cpp
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Stack.o Stack.cpp
 
 ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}

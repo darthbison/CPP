@@ -9,6 +9,10 @@
       <itemPath>Heap.h</itemPath>
       <itemPath>LinkedList.h</itemPath>
       <itemPath>LinkedListImpl.h</itemPath>
+      <itemPath>Queue.h</itemPath>
+      <itemPath>QueueImpl.h</itemPath>
+      <itemPath>Stack.h</itemPath>
+      <itemPath>StackImpl.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -20,7 +24,7 @@
       <itemPath>HashEntry.cpp</itemPath>
       <itemPath>HashMap.cpp</itemPath>
       <itemPath>Heap.cpp</itemPath>
-      <itemPath>LinkedList.cpp</itemPath>
+      <itemPath>Stack.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -57,11 +61,19 @@
       </item>
       <item path="Heap.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="LinkedList.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="LinkedList.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="LinkedListImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Queue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QueueImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Stack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Stack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StackImpl.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -98,11 +110,19 @@
       </item>
       <item path="Heap.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="LinkedList.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="LinkedList.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="LinkedListImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Queue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="QueueImpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Stack.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Stack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StackImpl.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>

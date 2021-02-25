@@ -244,7 +244,7 @@ int main() {
 
 	cout << "Marcus Johnson\n";
 	cout << "Probability and Statistics\n";
-	cout << "Project involving Markov Chains\n";
+	cout << "Project involving Markov Chains 2\n";
 	cout << "This program finds the convergence to a 2 by 2, 3 by 3, or a 4 by 4 matrix.\n";
 
 	while (characters != 'd') {
@@ -271,3 +271,4 @@ int main() {
 
 	return 0;
 }
+
